@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  padding: 5em 7em;
+}
+.hero {
+  background-color: #f3eed9;
+  padding: 10em 17em;
+}
+.hero__text {
+  text-align: center;
+}
+.hero__text h1 {
+  font-size: 60px;
+  color: #824936;
+}
+.hero__text p {
+  font-size: 18px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
+.primary-content {
+  padding: 5em 7em;
+}
+.primary-text {
+  display: flex;
+}
+.primary-content h2 {
+  text-align: center;
+  color: #824936;
+  font-size: 36px;
+}
+.primary-content p {
+  padding: 0.5em 1.5em;
+  font-size: 21px;
+}
+.secondary-content {
+  background-color: #222c2a;
+}
+.secondary-text h2 {
+  color: #f3eed9;
+}
+.secondary-content img {
+  padding: 0 2em;
+}
+
+.tertiary-content {
+  background-color: #824936;
+}
+.tertiary-text h2 {
+  color: #f3eed9;
+}
+.tertiary-content img {
+  padding: 0 2em;
+}
